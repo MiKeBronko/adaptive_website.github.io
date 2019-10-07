@@ -1,0 +1,67 @@
+.barentsburg__coord {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1280px) {
+  .barentsburg__coord {
+     width: 583px;
+    /*height: 40px; */
+    font-size: 42px;
+    line-height: 61px;
+    line-height: 42px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 42px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .barentsburg__coord {
+    /* width: 583px;
+    height: 40px; */
+    font-size: 2.6em;
+    line-height: 42px;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 45px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .barentsburg__coord {
+    /* width: 583px;
+    height: 40px; */
+    font-size: 2.6em;
+    line-height: 61px;
+    margin-top: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .barentsburg__coord {
+    /* width: 343px;
+    height: 24px; */
+    font-size: 1em;
+    line-height: 1.43;
+    margin-top: 0;
+    margin-bottom: 19px;
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .barentsburg__coord {
+    /* width: 288px;
+    height: 24px; */
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 0;
+    margin-bottom: 19px;
+    margin-left: 1em;
+  }
+}

@@ -1,0 +1,13 @@
+@import url('../__content-span/intro__content-span.css');
+
+.intro__content-author {
+  font-family: "Inter";
+  font-size: 0.625em;
+  line-height: 1;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.intro__content-author:first-child {
+ padding-bottom: 0.5em;
+}

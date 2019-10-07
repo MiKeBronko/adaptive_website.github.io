@@ -1,0 +1,72 @@
+.emblem__city {
+  font-family: "Inter";
+  font-weight: bold;
+  text-align: center;
+  color: #cccccc;
+}
+
+@media screen and (min-width: 1280px) {
+  .emblem__city {
+    font-size: 24px;
+    line-height: 26px;
+    margin: 35px auto 0 auto ;
+    width: 208px;
+  }
+
+  .emblem__container div:first-child p.emblem__city {
+    width: 64%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .emblem__city {
+    font-size: 1.5em;
+    line-height:1.08;
+    margin: 37px auto 0 auto ;
+    width: 208px;
+    /*height: 49px; */
+  }
+
+  .emblem__container div:first-child p.emblem__city {
+    width: 64%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 1023px) {
+  .emblem__city {
+    width: 100%;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 32px auto 0 auto ;
+    /* width: 208px;
+    height: 49px; */
+  }
+
+  .emblem__container div:first-child p.emblem__city {
+    width: 56%;
+    margin: 36px auto 0 auto ;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .emblem__city {
+    width: 100%;
+    font-size: 24px;
+    line-height: 26px;
+    margin: 35px auto 0 auto ;
+    /* width: 208px;
+    height: 49px; */
+  }
+
+  .emblem__container div:first-child p.emblem__city {
+    width: 50%;
+  }
+  .emblem__container div:nth-child(4) p.emblem__city {
+    margin-top: 30px;
+  }
+
+  .emblem__container div:last-child p.emblem__city {
+    margin-top: 29px;
+  }
+
+}

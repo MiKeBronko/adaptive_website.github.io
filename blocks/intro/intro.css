@@ -1,0 +1,58 @@
+@import url('./__title/intro__title.css');
+@import url('./__subtitle/intro__subtitle.css');
+@import url('./__content-row/intro__content-row.css');
+@import url('./__list/intro__list.css');
+
+.intro {
+  position: relative;
+  width: 984px;
+  /* height: 437px; */
+  font-size: 16px;
+  margin: 80px auto 92px auto;
+  font-family: "Inter";
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 984px;
+    /* height: 437px; */
+    margin: 80px auto 92px auto;
+  }
+}
+
+@media screen and (width: 1024px) and (max-width: 1279px) {
+  .intro {
+    width: 928px;
+    /* height: 443px; */
+    margin: 80px auto 92px auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro {
+    width: 720px;
+    /* height: 485px; */
+    margin: 80px auto 85px auto;
+  }
+}
+
+@media screen 
+  and (min-width: 375px) 
+  and (max-width: 767px) {
+  .intro {
+    width: 343px;
+    /* height: 831px; */
+    margin: 64px auto;
+  }
+}
+
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 374px) {
+  .intro {
+    width: 288px;
+    /* height: 1055px; */
+    margin: 67px auto 68px auto;
+  }
+}

@@ -1,0 +1,57 @@
+@import url('./__title/barentsburg__title.css');
+@import url('./__coord/barentsburg__coord.css');
+@import url('./__map/barentsburg__map.css');
+@import url('./__text/barentsburg__text.css');
+@import url('./__website/barentsburg__website.css');
+
+.barentsburg {
+  position: relative;
+  font-size: 16px;
+}
+
+
+
+@media screen and (min-width: 1280px){
+  .barentsburg {
+    width: 1184px;
+    /* height: 780px; */
+    margin: 85px auto 168px auto;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .barentsburg {
+    width: 928px;
+    /* height: auto; */
+    margin: 6.37em auto 6.5em auto;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .barentsburg {
+    width: 720px;
+    /* height: 596px; */
+    margin: 56px auto 104px auto;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .barentsburg {
+    width: 100%;
+    /* height: 483px; */
+    margin: 5.5em auto 3em auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .barentsburg {
+    width: 100%;
+    /* height: 492px; */
+    margin: 64px auto;
+    display: flex;
+    flex-direction: column;
+  }
+}

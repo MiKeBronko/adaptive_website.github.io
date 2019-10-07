@@ -1,0 +1,11 @@
+.places__url {
+  width: 484px;
+  /* height: 18px; */
+  font-family: "Inter";
+  font-size: 1.1255em;
+  line-height: 1;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration-line: underline;
+  color: #ffffff;
+}

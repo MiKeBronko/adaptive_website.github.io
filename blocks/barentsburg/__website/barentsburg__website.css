@@ -1,0 +1,68 @@
+@import url('../__url-heading/barentsburg__url-heading.css');
+@import url('../__url/barentsburg__url.css');
+
+/* .barenstsburg__website {
+  /* width: 282px;
+  height: 49px; 
+} */
+
+
+@media screen and (min-width: 1280px) {
+  .barentsburg__website {
+    position: absolute;
+    /* right: 400px;
+    bottom: 62px; */
+    width: 282px;
+    right: 400px;
+    bottom: 36px;
+
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .barentsburg__website {
+    position: absolute;
+    /* height: 13px; */
+    /* right: 200px;
+    bottom: 105px; */
+    width: 282px;
+    left: 472px;;
+    bottom: 36px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .barentsburg__website {
+     width: 290px;
+   /* height: 49px; */
+    position: absolute;
+    right: 0;
+    bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .barentsburg__website {
+     width: 343px;
+   /* height: 149px; */
+    /* width: 91.4%; */
+    order: 0;
+    margin-top: 29px;
+    margin-bottom: 21px;
+    margin-left: 1em;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .barentsburg__website {
+    /* width: 288px;
+    height: 49px; */
+    width: 90%;
+    order: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 1em;
+  }
+}

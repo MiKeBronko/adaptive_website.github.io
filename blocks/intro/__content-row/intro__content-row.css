@@ -1,0 +1,52 @@
+@import url('../__content-text/intro__content-text.css');
+@import url('../__content-list/intro__content-list.css');
+
+.intro__content-row {
+  display: flex;
+  vertical-align: top;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .intro__content-row {
+    width: 984px;
+    height: 154px;
+    margin-top: 17px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__content-row {
+    /* width: 928px;
+    height: 160px; */
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__content-row {
+    flex-direction: column;
+    width: 720px;
+    height: 218px;
+    /* width: 93.8% */
+    margin-top: 9px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .intro__content-row {
+    flex-direction: column;
+    /* width: 343px;
+    height: 528px; */
+    width: 91.4%
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .intro__content-row {
+    flex-direction: column;
+    /*width: 288px;
+     height: 760px; */
+     width: 95%;
+  }
+}

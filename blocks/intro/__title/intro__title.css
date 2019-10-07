@@ -1,0 +1,61 @@
+.intro__title {
+  margin: 0 auto 0 0;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .intro__title {
+    /*width: 683px; height: 52px; font-size: 54px; line-height: 59px;*/
+    width: 683px;
+    font-size: 3.375em;
+    line-height: 1.13;
+  }
+}
+
+@media screen 
+  and (min-width: 1024px) 
+  and (max-width: 1279px) {
+  .intro__title {
+    /*width: 928px; height: 52px; font-size: 54px;line-height: 59px;*/
+    width: 90.6%;
+    font-size: 3.375em;
+    line-height: 1.13;
+  }
+}
+
+@media screen 
+  and (min-width: 768px) 
+  and (max-width: 1023px) {
+  .intro__title {
+    /*width: 720px; height: 52px; font-size: 54px;line-height: 59px;*/
+    width: 93.75%;
+    font-size: 3.375em;
+    line-height: 1.13;
+  }
+}
+
+@media screen 
+  and (min-width: 375px) 
+  and (max-width: 767px) {
+  .intro__title {
+    /*width: 343px; height: 72px; font-size: 42px;line-height: 44px;*/
+    width: 71.4%;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 374px) {
+  .intro__title {
+    /*width: 288px; height: 81px; font-size: 32px; line-height: 35px;*/
+    width: 86%;
+    font-size: 2em;
+    line-height: 1.09;
+  }
+}

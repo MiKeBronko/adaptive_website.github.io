@@ -1,0 +1,51 @@
+@import url('../__heading/additional__heading.css');
+@import url('../__image/additional__image.css');
+@import url('../__text/additional__text.css');
+
+.additional__item {
+  position: relative;
+  /* box-sizing: border-box; */
+}
+
+@media screen and (min-width: 1280px) {
+  .additional__item {
+    width: 284px;
+    height: 330px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .additional__item {
+    width: 240px;
+    height: 280px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .additional__item {
+    /* width: 284px;
+    height: 330px; */
+    width: 100%;
+  } 
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .additional__item {
+    width: 284px;
+    /* height: 330px; */
+  }
+  /* .additional__item:last-of-type {
+    margin-bottom: 0;
+  } */
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .additional__item {
+    width: 284px;
+    /* height: 330px; */
+  }
+/* 
+  .additional__item:last-of-type {
+    margin-bottom: 0; 
+  } */
+}

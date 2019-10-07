@@ -1,0 +1,48 @@
+.cover__image_rect {
+  position: absolute;
+  background: #2a2c2f;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  width: 100%;
+}
+
+.cover__image_rect:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__image_rect {
+    width: 100%;
+    /* height: 594px; */
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .cover__image_rect {
+    width: 100%;
+    /* height: 591px; */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cover__image_rect {
+    width: 100%;
+    /* height: 500px; */
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cover__image_rect {
+    width: 100%;
+    /* height: 17em; */
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .cover__image_rect {
+    width: 100%;
+    /* height: 13.5em; */
+  }
+}

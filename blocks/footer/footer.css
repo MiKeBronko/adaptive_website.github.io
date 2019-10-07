@@ -1,0 +1,66 @@
+@import url('./__copyright/footer__copyright.css');
+@import url('./__list/footer__list.css');
+
+.footer {
+  font-family: "Inter";
+}
+
+@media screen and (min-width: 1440px) {
+  .footer {
+    width: 1184px;
+    /* height: 23px; */
+    position: relative;
+    margin-left: calc(50% - 1184px / 2);
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .footer {
+    width: 1184px;
+    /* height: 23px; */
+    position: relative;
+    margin-left: calc(50% - 1184px / 2);
+    margin-bottom: 48px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px)  {
+  .footer {
+    position: relative;
+    width: 929px;
+    /* height: 23px; */
+    margin-left: calc(50% - 929px / 2);
+    margin-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer {
+    position: relative;
+    width: 720px;
+    /* height: 23px; */
+    /* margin-left: 24px; */
+    margin-left: calc(50% - 720px / 2);
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .footer {
+    width: 282px;
+    /* width: 100%; */
+    /* height: 304px; */
+    margin-left: 16px;
+  }
+}
+
+@media screen and (min-width: 320px)  and (max-width: 374px) {
+  .footer {
+    width: 282px;
+    /* height: 304px; */
+    margin-left: 16px;
+  }
+}
+

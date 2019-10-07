@@ -1,0 +1,11 @@
+.barentsburg__url {
+  /* width: 282px;
+  height: 30px; */
+  width: 100%;
+  margin-left: 0;
+  font-family: "Inter";
+  font-size: 1.125em;
+  line-height: 1.6;
+  text-decoration-line: underline;
+  color: #ffffff;
+}

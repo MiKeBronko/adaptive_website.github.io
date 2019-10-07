@@ -1,0 +1,53 @@
+.lead__route {
+  position: absolute;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__route {
+    width: 937.08px;
+    height: 225.68px;
+    left: calc(50% - 937.08px / 2);
+    top: calc(100% - 225.68px * 2);
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__route {
+    width: 883.75px;
+    height: 225.63px;
+    left: calc(50% - 883.75px / 2);
+    top: calc(100% - 225.63px / 0.5);
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__route {
+    width: 731.38px;
+    height: 171.05px;
+    left: calc(50% - 731.38px / 2);
+    top: calc(100% - 171.05px / 0.5);
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .lead__route {
+    width: 357.12px;
+    height: 85.93px;
+    left: calc(50% - 357.12px / 2);
+    top: calc(100% - 85.93px / 0.5);
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .lead__route {
+    /* width: 304.74px;
+    height: 85.93px;
+    left: calc(50% - 304.74px / 2);
+    top: calc(100% - 85.93px / 0.5); */
+    width: 304.74px;
+    left: calc(50% - 304.74px / 2);
+    top: calc(58%);
+  }
+}

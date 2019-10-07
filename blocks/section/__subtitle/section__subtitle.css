@@ -1,0 +1,120 @@
+.section__subtitle {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 1440px) {
+  .section__subtitle {
+    width: 56.4%;
+    font-size: 1.5em;
+    line-height: 1.458;
+   margin: 39px auto 0 auto;
+  }
+.comments .section__subtitle {
+  margin: 30px auto 0 auto;
+}
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+  .section__subtitle {
+    width: 640px;
+    font-size: 1.5em;
+    line-height: 1.458;
+    margin: 38px auto 0 auto;
+  }
+  .comments .section__subtitle {
+    margin: 30px auto 0 auto;
+  }
+  /* .video .section__subtitle {
+    margin: 38px auto 0 auto;
+}
+
+.additional .section__subtitle {
+    margin: 38px auto 0 auto;
+} */
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .section__subtitle {
+    width: 640px;
+    font-size: 1.5em;
+    line-height: 1.458;
+    margin: 48px auto 0 auto;
+  }
+   
+  .video .section__subtitle {
+    width: 66.5%;
+    margin: 36px auto 0 auto;
+}
+
+  .additional .section__subtitle {
+  width: 66.5%;
+  margin: 37px auto 0 auto;
+}
+
+  .comments .section__subtitle {
+  width: 69.5%;
+  margin: 22px auto 0 auto;
+}
+
+}
+
+@media screen and (min-width:  768px) and (max-width: 1023px) {
+  .section__subtitle {
+    font-size: 1.5em;
+    line-height: 1.458;
+    margin: 30px auto 0 auto;
+  }
+
+  .video .section__subtitle {
+    width: 88.5%;
+    margin: 31px auto 0 auto;
+}
+
+.additional .section__subtitle {
+  width: 89.5%;
+  margin: 21px auto 0 auto;
+}
+
+
+}
+@media screen and (min-width:  375px) and (max-width: 767px) {
+  .section__subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 23px auto 0 auto;
+  }
+
+  .additional .section__subtitle {
+    font-size: 16px;
+    line-height: 23px;
+    margin: 19px auto 0 auto;
+  }
+}
+
+
+@media screen and (min-width:  320px) and (max-width: 374px) {
+  .section__subtitle {
+    font-size: 1em;
+    line-height: 1.4375;
+    margin: 1em auto 0 auto;
+  }
+  .video .section__subtitle {
+    width: 261px;
+    margin: 19px auto 0 auto;
+}
+  .additional .section__subtitle {
+  width: 275px;
+  margin: 20px auto 0 auto;
+}
+.comments .section__subtitle {
+  width: 275px;
+  margin: 21px auto 0 auto;
+}
+
+}

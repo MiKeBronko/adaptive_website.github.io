@@ -1,0 +1,9 @@
+@import url('./__title/section__title.css');
+@import url('./__subtitle/section__subtitle.css');
+
+
+.section {
+  font-family: "Inter";
+  font-size: 16px;
+}
+

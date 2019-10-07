@@ -1,0 +1,57 @@
+@import url('../blocks/pages/page.css');
+@import url('./vendor/normalize.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/section/section.css');
+@import url('../blocks/lead/lead.css');
+@import url('../blocks/intro/intro.css');
+@import url('../blocks/photo-grid/photo-grid.css');
+@import url('../blocks/places/places.css');
+@import url('../blocks/video/video.css');
+@import url('../blocks/additional/additional.css');
+@import url('../blocks/comments/comments.css');
+@import url('../blocks/cover/cover.css');
+@import url('../blocks/emblem/emblem.css');
+@import url('../blocks/barentsburg/barentsburg.css');
+@import url('../blocks/footer/footer.css');
+
+@font-face {
+  src: url('../font/Inter/Inter-Regular.woff') format('woff'), url('../font/Inter/Inter-Regular.woff2') format('woff2'), url('../font/Inter/Inter-Regular.ttf') format('ttf');
+  font-family: "Inter";
+  font-weight: normal;
+}
+
+@font-face {
+  src: url('../font/Inter/Inter-Bold.woff') format('woff'), url('../font/Inter/Inter-Bold.woff2') format('woff2'), url('../font/Inter/Inter-Regular.ttf') format('ttf');
+  font-family: "Inter";
+  font-weight: bold;
+}
+
+@font-face {
+  src: url('../font/Inter/Inter-Italic.woff') format('woff'), url('../font/Inter/Inter-Italic.woff2') format('woff2');
+  font-family: "Inter";
+  font-style: italic;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  background: #2a2c2f;
+}
+
+
+html {
+  /* width: 100%; */
+  min-height: 100%;
+  overflow-x: hidden;
+  font-size: 16px;
+  }
+
+  
+  /* a[href^="http://"]:not([href*=""]):after,
+  a[href^="https://"]:not([href*=""]):after,
+  a[href^="ftp://"]:not([href*=""]):after {
+    content: "(Переход на другой сайт)";
+    color: rgb(238, 10, 40);
+    padding-left:50px;
+} */
+

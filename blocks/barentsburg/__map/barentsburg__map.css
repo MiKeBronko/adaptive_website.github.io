@@ -1,0 +1,48 @@
+.barentsburg__map {
+  /* height: 464px; */
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 1280px) {
+  .barentsburg__map {
+    width: 1184px;
+     /*height: 464px; */
+    height: 29em;
+  }
+}
+
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .barentsburg__map {
+    /* width: 928px;
+    height: 362px; */
+    width: 100%;
+    height: 22.625em;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .barentsburg__map {
+   width: 720px;
+      /*height: 280px; */
+    height: 17.5em;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px)  {
+  .barentsburg__map {
+    /* width: 375px; */
+    width: 100%;
+    /* height: 146px; */
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .barentsburg__map {
+    /* width: 320px; */
+    /* height: 124px; */
+    width: 100%;
+    margin-bottom: 29px;
+  }
+}

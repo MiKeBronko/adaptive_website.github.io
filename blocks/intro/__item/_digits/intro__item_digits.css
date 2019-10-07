@@ -1,0 +1,56 @@
+.intro__item_digits {
+  font-family: "Inter";
+  color: #ffffff;
+  font-style: normal;
+  font-weight: normal;
+  
+}
+
+@media screen and (min-width: 1280px) {
+  .intro__item_digits {
+    /* font-size: 13px;
+    line-height: 20px; */
+    font-size: 0.8125em;
+    line-height: 1.53;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .intro__item_digits {
+    /* font-size: 13px;
+    line-height: 20px; */
+    font-size: 0.8125em;
+    line-height: 1.53;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .intro__item_digits {
+    /* font-size: 13px;
+    line-height: 13px; */
+    font-size: 0.8125em;
+    line-height: 1;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .intro__item_digits {
+    /* width: 343px;
+    height: 96px;
+    font-size: 12px;
+    line-height: 19px; */
+    font-size: 0.75em;
+    line-height: 1.58;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .intro__item_digits {
+    /* width: 288px;
+    height: 96px;
+    font-size: 12px;
+    line-height: 19px; */
+    font-size: 1em;
+    line-height: 1.58;
+  }
+}

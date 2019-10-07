@@ -1,0 +1,43 @@
+@import url('./__container/additional__container.css');
+
+
+.additional {
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+
+@media screen and (min-width: 1280px) {
+  .additional {
+    /* height: 542px; */
+    width: 1184px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .additional {
+    /*width: 991px; height: 484px; */
+    width: 991px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .additional {
+    /*width: 640px; height: 835px; */
+    width: 83.3%;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .additional {
+    width: 284px;
+     /*height: 1536px; */
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .additional {
+    width: 288px;
+    /*height: 1536px; */
+  }
+}

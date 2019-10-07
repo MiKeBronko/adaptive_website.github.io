@@ -1,0 +1,77 @@
+.additional__heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 18px;
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 1280px) {
+  .additional__heading {
+    /* width: 248px;
+    height: 55px; */
+    width: 82.9%;
+    font-size: 1.68em;
+    line-height: 1.07;
+    left: 18px;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .additional__heading {
+     width: 225px;
+    /*height: 48px; */
+    font-size: 1.5em;
+    line-height: 1.08;
+    left: 16px;
+    top: 24px;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .additional__heading {
+    /* width: 248px;
+    height: 55px; */
+    width: 81.9%;
+    font-size: 1.68em;
+    line-height: 1.07;
+    left: 18px;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .additional__heading {
+     width: 248px;
+   /* height: 55px; */
+    font-size: 1.5em;
+    line-height: 1.08;
+    left: 18px;
+    top: 30px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+  .additional__heading {
+     width: 248px;
+    /*height: 55px; */
+    font-size: 1.5em;
+    line-height: 1.08;
+    left: 18px;
+    top: 30px;
+  }
+
+  .additional__item:nth-of-type(2) .additional__heading {
+    width: 242px;
+ }
+}
+
+
+/*left: calc(50% - 248px/2 - 150px) and (max-width: 374px); */
